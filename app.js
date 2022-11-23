@@ -22,9 +22,11 @@ console.log("bo'ldi, shuncha payt nima qildingiz?");
 
 document.write("Siz tug'ilganingizga");
 document.write(
-  "Yil: " + Math.round((now - day) / 1000 / 60 / 60 / 24 / 365.25) + ";"
+  "Yil: " + Math.round((now - day) / 1000 / 60 / 60 / 24 / 365.25) + ";   "
 );
-document.write("Kun: " + Math.round((now - day) / 1000 / 60 / 60 / 24) + ";");
-document.write("Soat: " + Math.round((now - day) / 1000 / 60 / 60) + ";");
-document.write("Sekund: " + Math.round(now - day) + ";");
+document.write(
+  "Kun: " + Math.round((now - day) / 1000 / 60 / 60 / 24) + ";   "
+);
+document.write("Soat: " + Math.round((now - day) / 1000 / 60 / 60) + ";   ");
+document.write("Sekund: " + Math.round(now - day) + ";   ");
 document.write("bo'ldi, shuncha payt nima qildingiz?");
